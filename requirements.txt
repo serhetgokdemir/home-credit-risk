@@ -1,5 +1,7 @@
-numpy
 pandas
-matplotlib
-seaborn
+numpy
 scikit-learn
+lightgbm
+matplotlib
+joblib
+seaborn
