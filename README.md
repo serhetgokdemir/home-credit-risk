@@ -1,33 +1,41 @@
 # Home Credit Default Risk Analysis
-A project by Serhet Gökdemir, for MTM4991, under Hale Gönce Köçken's supervision. [Visit My Website](https://serhetgokdemir.github.io)
+A project by Serhet Gökdemir, for MTM4991, under Hale Gönce Köçken's supervision. [Visit My Website](https://serhet.com)
+
+---
 
 ## General Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This experimental project analyzes the famous Kaggle competition "Home Credit Default Risk".<br>
+Click to see the dataset: [link](https://www.kaggle.com/c/home-credit-default-risk)
+
+---
 
 ## Repository Structure
 ```
 home_credit_project/
 │
-├── data/
+├── data/   # Not included
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
+│ ├── 01_exploratory_data_analysis.ipynb
 │ ├── 02_feature_engineering.ipynb
-│ ├── 03_model_training.ipynb
-│ ├── 04_evaluation.ipynb
-│ └── 05_reporting.ipynb
+│ ├── 03_base_model_training.ipynb
+| ├── 04_model_training.ipynb
+│ ├── 05_evaluation.ipynb
+│ └── 06_reporting.ipynb
 │
-├── models/
+├── models/ # Filled soon
 │
-├── src/
+├── src/    # Filled soon
 |
-├── utils/
+├── utils/  # Filled soon
 │
 ├── reports/
 │
 ├── requirements.txt
 └── README.md
 ```
+
+--- 
 
 ## Steps in the Project
 
@@ -40,6 +48,8 @@ home_credit_project/
 ### 4.
 
 ### 5.
+
+--- 
 
 ## Setup Instructions
 
@@ -60,6 +70,9 @@ This will install the following necessary packages:
 
 ### 3. Something
 
+---
+
 ## Results
-- Final Model: Support Vector Machine (SVM)
-- Accuracy: 0.8900
+- Base Model: Logistic Regression
+- Final Model: XGBoost
+- Performance of the final model:
